@@ -9,13 +9,14 @@ package cosas;
  *
  * @author Brandon
  */
-public class Cosas {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // gyTODO code applicagtion logic here
+public class Herencia {
+    public static void main(String[]args){
+        A x = new A();
+        x.print();
+        B y = new B();
+        x.print();
+        y.print();
+        x = y;
+        x.print();
     }
-    
 }
