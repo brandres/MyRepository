@@ -16,6 +16,6 @@ public class A{
         x=1;
     }
     public void print(){
-        System.out.println("AAAAAAA" + x);
+        System.out.println("AAAAAAAlol" + x);
     }
 }
