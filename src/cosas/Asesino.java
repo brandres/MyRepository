@@ -9,13 +9,6 @@ package cosas;
  *
  * @author Brandon
  */
-public class A{
-    int x=0;
-    public A(){
-        System.out.println("creado A");
-        x=1;
-    }
-    public void print(){
-        System.out.println("AAAAAAAlol" + x);
-    }
+public class Asesino extends Personaje {
+    
 }

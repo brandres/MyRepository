@@ -9,15 +9,6 @@ package cosas;
  *
  * @author Brandon
  */
-public class B extends A{
-    public B(){
-        System.out.println("creado B");
-        x = 2;
-    }
+public class Curador extends Personaje{
     
-    @Override
-    public void print(){
-        System.out.println("BBBBBBBBBBBBBB" + x);
-        super.print();
-    }
 }
