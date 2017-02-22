@@ -9,6 +9,6 @@ package cosas;
  *
  * @author Brandon
  */
-public class Curador extends Personaje{
+public class Sanador extends Personaje{
     
 }
