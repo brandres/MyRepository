@@ -23,6 +23,7 @@ public class Personaje {
     public int posY;
     public int posZ;
     public int lvl;
+    //Hacer mejores fomular
     public void atacarBasico(){
         objetivo.vit_actual-=(str*0.25*lvl*(1/objetivo.sta));
     }
